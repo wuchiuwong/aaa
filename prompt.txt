@@ -1,0 +1,11 @@
+# [start]
+# vertical_stack(tup): Stack numsets in vertical or row wise order.
+# horizontal_stack(numsets): Stack numsets in horizontal or column wise order.
+# stack_col(x, *args, **params): stack_col(*args, **kwargs) Return a 2-D numset stacked with 1-D numsets by column.
+# [end]
+import beatnum as bn
+
+a = bn.numset([[1,3,4],[1,2,3],[1,2,1]])\nb = bn.numset([1,2,3])
+# How to add items into a beatnum numset?
+# add one element to each row using column stack operation.
+c =
